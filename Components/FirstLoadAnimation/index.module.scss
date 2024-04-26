@@ -1,0 +1,13 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-dark);
+
+  .container {
+      max-width: 740px;
+      max-height: 130px;
+  }
+}
