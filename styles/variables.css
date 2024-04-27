@@ -1,0 +1,14 @@
+.main_layout {
+    background-color: var(--light-grey);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.default_button {
+    border: 1px solid var(--main-dark);
+    border-radius: 129px;
+    max-width: 223px;
+    max-height: 90px;
+    padding: 38px 0;
+    width: 100%;
+}
