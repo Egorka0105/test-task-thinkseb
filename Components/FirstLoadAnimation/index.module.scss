@@ -7,7 +7,29 @@
   background-color: var(--main-dark);
 
   .container {
-      max-width: 740px;
-      max-height: 130px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    max-width: 740px;
+    max-height: 128px;
+    width: 100%;
+  }
+}
+
+.container {
+  .first__wrapper {
+    transform: translateX(176%);
+  }
+
+  .second__wrapper {
+    .element_2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .element_3 {
+      position: absolute;
+    }
   }
 }
