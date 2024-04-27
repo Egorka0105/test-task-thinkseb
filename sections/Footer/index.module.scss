@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 315px;
+  padding: 30px;
+
+  &_caption__wrapper {
+    position: relative;
+
+    .caption {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      span {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 133%;
+        color: rgba(18, 18, 18, 0.4);
+
+        a {
+          color: var(--main-dark);
+        }
+      }
+    }
+  }
+}

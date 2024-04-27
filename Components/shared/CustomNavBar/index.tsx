@@ -9,12 +9,12 @@ interface ICustomNavBarProps {
 
 export const CustomNavBar: FC<ICustomNavBarProps> = ({ list }) => {
 	return (
-		<nav className={styles.navbar}>
+		<div className={styles.navbar}>
 			{list.map((item: INavBarListItem) => (
 				<Link key={item.key} href={item.link}>
 					{item.title}
 				</Link>
 			))}
-		</nav>
+		</div>
 	);
 };

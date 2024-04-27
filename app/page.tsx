@@ -1,12 +1,13 @@
 // import { FirstLoadAnimation } from 'Components';
 import { Header } from 'Components/Header';
+import { Footer } from 'sections/Footer';
 
 export default function Home() {
 	return (
-		<main className={'main_layout'}>
-			{/*<FirstLoadAnimation />*/}
-
+		<>
 			<Header />
-		</main>
+			<main className={'main_layout'}>{/*<FirstLoadAnimation />*/}</main>
+			<Footer />
+		</>
 	);
 }

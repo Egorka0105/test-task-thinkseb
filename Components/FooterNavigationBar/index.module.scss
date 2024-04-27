@@ -1,0 +1,26 @@
+.footer_navigation {
+  display: flex;
+  justify-content: space-between;
+
+  .preview_text {
+    flex: 0 1 283px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--main-dark);
+    opacity: 0.4;
+  }
+
+  .navigation_wrapper {
+    .title {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 133%;
+      color: var(--main-dark);
+      opacity: 0.4;
+      padding-bottom: 16px;
+    }
+  }
+}
